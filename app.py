@@ -12,16 +12,22 @@ languages = {
     "Hindi": "hi",
     "Telugu": "te",
     "Tamil": "ta",
+    "Kannada": "kn",
+    "Malayalam": "ml",
+    "Marathi": "mr",
+    "Bengali": "bn",
+    "Gujarati": "gu",
+    "Punjabi": "pa",
+    "Urdu": "ur",
     "French": "fr",
     "German": "de",
     "Spanish": "es",
+    "Italian": "it",
+    "Portuguese": "pt",
+    "Russian": "ru",
     "Japanese": "ja",
     "Korean": "ko",
-    "Chinese": "zh-CN",
-    "Arabic": "ar",
-    "Russian": "ru",
-    "Portuguese": "pt",
-    "Italian": "it"
+    "Chinese": "zh-CN"
 }
 
 text = st.text_area("Enter Text")
