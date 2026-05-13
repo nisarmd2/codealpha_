@@ -12,27 +12,16 @@ languages = {
     "Hindi": "hi",
     "Telugu": "te",
     "Tamil": "ta",
-    "Kannada": "kn",
-    "Malayalam": "ml",
-    "Marathi": "mr",
-    "Bengali": "bn",
-    "Gujarati": "gu",
-    "Punjabi": "pa",
-    "Urdu": "ur",
     "French": "fr",
     "German": "de",
     "Spanish": "es",
-    "Italian": "it",
-    "Portuguese": "pt",
-    "Russian": "ru",
     "Japanese": "ja",
     "Korean": "ko",
-    "Chinese": "zh-cn",
+    "Chinese": "zh-CN",
     "Arabic": "ar",
-    "Turkish": "tr",
-    "Dutch": "nl",
-    "Greek": "el",
-    "Thai": "th"
+    "Russian": "ru",
+    "Portuguese": "pt",
+    "Italian": "it"
 }
 
 text = st.text_area("Enter Text")
