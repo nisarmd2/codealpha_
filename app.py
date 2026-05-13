@@ -7,16 +7,32 @@ import os
 st.set_page_config(page_title="Language Translator", page_icon="🌍")
 
 st.title("🌍 Language Translation Tool")
-
 languages = {
     "English": "en",
     "Hindi": "hi",
     "Telugu": "te",
+    "Tamil": "ta",
+    "Kannada": "kn",
+    "Malayalam": "ml",
+    "Marathi": "mr",
+    "Bengali": "bn",
+    "Gujarati": "gu",
+    "Punjabi": "pa",
+    "Urdu": "ur",
     "French": "fr",
     "German": "de",
     "Spanish": "es",
+    "Italian": "it",
+    "Portuguese": "pt",
+    "Russian": "ru",
     "Japanese": "ja",
-    "Chinese": "zh-cn"
+    "Korean": "ko",
+    "Chinese": "zh-cn",
+    "Arabic": "ar",
+    "Turkish": "tr",
+    "Dutch": "nl",
+    "Greek": "el",
+    "Thai": "th"
 }
 
 text = st.text_area("Enter Text")
