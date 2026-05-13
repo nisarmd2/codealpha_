@@ -54,6 +54,13 @@ with col1:
         index=list(languages.keys()).index(st.session_state.source_lang)
     )
 
+with col3:
+    target_lang = st.selectbox(
+        "Target Language",
+        [lang for lang in languages.keys() if lang != "Auto Detect"],
+        index=[lang for lang in languages.keys() if lang != "Auto Detect"].index(st.session_state.target_lang)
+    )
+
 with col2:
     st.write("")
     st.write("")
@@ -64,14 +71,6 @@ with col2:
             st.rerun()
         else:
             st.warning("Auto Detect cannot be swapped.")
-
-with col3:
-    target_lang = st.selectbox(
-        "Target Language",
-        [lang for lang in languages.keys() if lang != "Auto Detect"],
-        index=[lang for lang in languages.keys() if lang != "Auto Detect"].index(st.session_state.target_lang)
-    )
-
 if st.button("Translate"):
     if text.strip():
         try:
